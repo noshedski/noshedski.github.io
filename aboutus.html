@@ -85,8 +85,45 @@
                 555 Address St., Ottawa, Ontario Q5Q 9Q9 <br>
                 Phone Number: 555-555-5555 <br>
                 Email: spotlesshomes@info.ca </strong>
-                </p>
                 
+                <br>
+                <br>
+                If you have any feedback to submit, type in the text box below and hit submit!
+                
+                <form>
+                    <label for="email" class="form-label">Email address:</label>
+                        <div class="input-group mb-2">
+                        <span class="input-group-text">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-inbox-fill" viewBox="0 0 16 16">
+                                <path d="M4.98 4a.5.5 0 0 0-.39.188L1.54 8H6a.5.5 0 0 1 .5.5 1.5 1.5 0 1 0 3 0A.5.5 0 0 1 10 8h4.46l-3.05-3.812A.5.5 0 0 0 11.02 4zm-1.17-.437A1.5 1.5 0 0 1 4.98 3h6.04a1.5 1.5 0 0 1 1.17.563l3.7 4.625a.5.5 0 0 1 .106.374l-.39 3.124A1.5 1.5 0 0 1 14.117 13H1.883a1.5 1.5 0 0 1-1.489-1.314l-.39-3.124a.5.5 0 0 1 .106-.374z"/>
+                            </svg>
+                        </span>
+                        <input type="text" id="email" class="form-control" placeholder="ex. client@gmail.com"  />
+                        </div>
+                        
+                    <div class="mb-4 mt-4 form-floating">
+                        <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
+                        <label for="query">Your feedback...</label>
+                        </div>
+                    </div>
+                </form>
+
+                <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                    Submit Feedback
+                </button>
+
+                <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modal-title">Feedback Sent! Thank you for your time</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                </p>
 
             </div>
             </div>
